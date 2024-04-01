@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kółko i Krzyżyk"
+        android:background="#673AB7"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="137dp"
+        android:src="@drawable/krzyzyk"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="40dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/p11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|left"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp"/>
+
+        <Button
+            android:id="@+id/p12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p13"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|right"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p21"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|left"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p22"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|center"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p23"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|right"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p31"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p32"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/p33"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="7dp"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            app:cornerRadius="0dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="20dp"
+        android:layout_gravity="center|bottom">
+
+    <TextView
+        android:id="@+id/komunikat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="Teraz gra O"
+        android:textSize="32sp"/>
+
+    <Button
+        android:id="@+id/nowa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="Nowa gra"
+        android:layout_marginBottom="15dp"/>
+
+    </FrameLayout>
+
+</FrameLayout>
